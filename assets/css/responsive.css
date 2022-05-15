@@ -11,4 +11,32 @@
 }
 
 @media (max-width: 480px) {
+    .logo {
+        visibility: hidden;
+        
+    }
+    .success .container {
+        display: flex;
+        align-items: center;
+        gap: 1.4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    .success .container .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 1.4rem;
+    }
+    .s-contact .container {
+        flex-wrap: wrap;
+    }
+
+    .s-contact .container .form-contact {
+        padding-top: 50px;
+    }
+  
+
+
 }
