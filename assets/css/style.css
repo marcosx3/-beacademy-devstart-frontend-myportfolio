@@ -120,13 +120,13 @@ header .container nav .menu-social img:hover {
 .success {
     padding: 14.4rem 0;
     margin: 0 auto;
+
 }
   
 .success .container {
     display: flex;
     align-items: center;
-    
-    gap: 4.4rem;
+    gap: 1.4rem;
 }
 .success .container .cards {
     display: flex;
@@ -134,7 +134,7 @@ header .container nav .menu-social img:hover {
   
 .success .container .title-success h2  {
     margin-top: 2rem;
-    font-weight: 900;
+    font-weight: 700;
 }
   
 
@@ -143,7 +143,7 @@ header .container nav .menu-social img:hover {
     height: 30.4rem;
     background-color: var(--white-color);
     border-radius: 4px;
-    margin-right: 3.1rem;
+    margin-right: 2.4rem;
     cursor: pointer;
 }
   

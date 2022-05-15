@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./assets/css/pattern.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Be-Portifolio</title>
 </head>
 
@@ -54,9 +55,9 @@
   <!-- END HEADER -->
   <main>
     <!-- SECTION HERO -->
-    <section class="hero">
+    <section class="hero " data-aos="zoom-in">
       <!-- CARD -->
-      <div class="container">
+      <div class="container" >
         <div class="title">
           <h1>Olá! 👋🏻 Eu sou <span>Marcos Oliveira</span></h1>
           <h2>Analista e Desenvolvedor de Sistemas</h2>
@@ -87,11 +88,16 @@
     <!-- END HERO -->
 
     <!-- SECTION CARDS -->
-    <section class="success">
+    <section class="success" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
       <div class="container">
+        <div class="card">
+          
         <div class="title-success">
           <span class="tag">#TemosExcelencia🔥</span>
           <h2><span>Sucesso</span><br />Tem <br />Nome</h2>
+        </div>
         </div>
         <div class="cards">
           <div class="card active">
@@ -131,7 +137,7 @@
     <!-- END CARDS -->
 
     <!-- SECTION ABOUT -->
-    <section id="about" class="about">
+    <section id="about" class="about" data-aos="fade-left">
       <div class="container">
         <div class="about-me">
           <h2>QUEM SOU<span>.</span></h2>
@@ -163,7 +169,7 @@
     <!-- END ABOUT -->
 
     <!-- SECTION CASES -->
-    <section id="cases" class="s-cases">
+    <section id="cases" class="s-cases" data-aos="zoom-in">
       <div class="container">
         <div class="title-cases">
           <h2>CASES<span>.</span></h2>
@@ -184,7 +190,7 @@
     <!-- END CASES -->
 
     <!-- SECTION CONTACT -->
-    <section id="contact" class="s-contact">
+    <section id="contact" class="s-contact" data-aos="fade-left">
       <div class="container">
         <div class="title-contact">
           <h2>
@@ -216,7 +222,7 @@
   <!-- END CONTACT -->
 
   <!-- FOOTER -->
-  <footer>
+  <footer data-aos="zoom-in">
     <div class="container">
       <div class="copy">
          <p class="copyright">Marcos Oliveira © 2022</p>
@@ -224,9 +230,10 @@
     </div>
   </footer>
 
-
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="./assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
