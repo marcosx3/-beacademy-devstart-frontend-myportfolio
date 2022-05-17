@@ -1,34 +1,19 @@
-@media (max-width: 1200px) {
-}
 
 @media (max-width: 991px) {
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 600px) {
-}
-
-@media (max-width: 480px) {
     .logo {
         visibility: hidden;
         
     }
-    .success .container {
-        display: flex;
-        align-items: center;
-        gap: 1.4rem;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
     .success .container .cards {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
-        align-content: center;
-        gap: 1.4rem;
     }
+    .success .container .cards .card {
+        width: 80vw;
+        justify-content: center;
+    }
+   
     .s-contact .container {
         flex-wrap: wrap;
     }
@@ -36,7 +21,92 @@
     .s-contact .container .form-contact {
         padding-top: 50px;
     }
-  
+  .cases {
+      display: flex;
+  }
+}
 
+@media (max-width: 768px) {
+    .logo {
+        visibility: hidden;
+        
+    }
+    .success .container .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .success .container .cards .card {
+        width: 80vw;
+        justify-content: center;
+    }
+   
+    .s-contact .container {
+        flex-wrap: wrap;
+    }
+
+    .s-contact .container .form-contact {
+        padding-top: 50px;
+    }
+  .cases {
+      display: flex;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+        visibility: hidden;
+        
+    }
+    .success .container .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .success .container .cards .card {
+        width: 80vw;
+        justify-content: center;
+    }
+   
+    .s-contact .container {
+        flex-wrap: wrap;
+    }
+
+    .s-contact .container .form-contact {
+        padding-top: 50px;
+    }
+  .cases {
+      display: flex;
+  }
+
+}
+
+@media (max-width: 480px) {
+    .logo {
+        visibility: hidden;
+        
+    }
+    .success .container .cards {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .success .container .cards .card {
+        width: 80vw;
+        
+    }
+   
+    .s-contact .container {
+        flex-wrap: wrap;
+    }
+
+    .s-contact .container .form-contact {
+        padding-top: 50px;
+    }
+  .cases {
+      display: flex;
+  }
 
 }
