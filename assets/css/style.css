@@ -51,7 +51,7 @@ header .container nav .menu-social img:hover {
 /* HERO SECTION */
 
 .hero {
-    /* background-image: url(../img/s-hero-bg.svg); */
+    background-image: url(../img/bg-stars.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
