@@ -51,7 +51,7 @@ header .container nav .menu-social img:hover {
 /* HERO SECTION */
 
 .hero {
-    background-image: url(../img/s-hero-bg.svg);
+    /* background-image: url(../img/s-hero-bg.svg); */
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -136,8 +136,7 @@ header .container nav .menu-social img:hover {
     cursor: pointer;
 }
 .card {
-    width: 20vw;
-    height: 40vh;
+  
     border-radius: 10px;
     background-color: var(--white-color);
     

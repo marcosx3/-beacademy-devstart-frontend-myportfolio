@@ -1,4 +1,32 @@
 /* RESPONSIVE LAYOUT */
+
+@media (max-width: 1260px) {
+    .logo {
+        visibility: hidden;      
+    }
+    .success .container .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .success .container .cards .card {
+         width: 80vw;
+        justify-content: center;
+    }
+       
+    .s-contact .container {
+        flex-wrap: wrap;
+    }
+    
+    .s-contact .container .form-contact {
+        padding-top: 50px;
+    }
+    
+    .cases {
+          display: flex;
+    }
+    
+}
 @media (max-width: 991px) {
 .logo {
     visibility: hidden;      
