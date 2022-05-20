@@ -7,6 +7,7 @@
 .success .container .cards {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: auto;
 }
 .success .container .cards .card {
@@ -41,6 +42,7 @@
 .success .container .cards {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: auto;
 }
 .success .container .cards .card {
@@ -76,6 +78,7 @@
 .success .container .cards {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: auto;
 }
 .success .container .cards .card {
@@ -113,6 +116,7 @@
 .success .container .cards {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: auto;
 }
 .success .container .cards .card {
@@ -149,10 +153,12 @@
 .success .container .cards {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         margin: auto;
 }
 .success .container .cards .card {
         width: 80vw;
+        flex-wrap: wrap;
         
 }
 .s-cases .container {
